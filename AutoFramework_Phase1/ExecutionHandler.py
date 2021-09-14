@@ -23,4 +23,4 @@ with open("config.py","r") as readConfig:
                     break
             
     testExecutor ="test_Initiator_"+localtorun
-    globals()[testExecutor](excelToRun[localtorun])
+    globals()[testExecutor](excelToRun[localtorun],localtorun)
